@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(21, 14, 94);
+}
+
+.earth{
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.triangle{
+    width: 30%;
+    position: absolute;
+    top: 25%;
+    left: 500px;
+}
+
+.happy {
+    position: absolute;
+    width: 100%;
+}
+.sad{
+    position: absolute;
+    width: 100%;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+}
+
+.reduce{
+    position: absolute;
+    top: 100px;
+    left: 45%;
+}
+
+.recycle{
+    position: absolute;
+    top: 70%;
+    left: 25%;
+}
+
+.reuse{
+    position: absolute;
+    top: 70%;
+    left: 64%;
+}
+
+h2{
+    color: white;
+    background-color: rgb(11, 88, 25);
+    font-size: 37px;
+    position: absolute;
+    top: 50%;
+    left: 39%;
+}
+
+@keyframes scaleImg{
+    0%{
+        width: 15%;
+    }
+    50%{
+        width: 30%;
+    }
+    100%{
+        width: 15%;
+    }
+}
+
+
