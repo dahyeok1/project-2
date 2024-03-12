@@ -15,6 +15,13 @@ $(document).ready(function() {
             $("#sad").hide();
         });
         $("#happy").click(function(){
+            $(".happy").addClass("animate-img");
+            setTimeout(function(){
+                $(".happy").removeClass
+                ("animate-img");
+            }, 2000);
+        });
+        $("#happy").click(function(){
             $("#sad").show();
             $("#happy").hide();
         });
@@ -29,22 +36,12 @@ $(document).ready(function() {
             $("#recycles").hide();
         });
     
-    $("#what").click(function(){
-        $(".three").addClass("animate-img");
-
+$("#sky").click(function(){
+        $(".bg").addClass("animate-img");
         setTimeout(function(){
-            $(".three").removeClass("animate-img");
-        },2000);
+            $(".bg").removeClass
+                ("animate-img");
+        }, 2000);
     })
 
-    $("#what").click(function(){
-        $(".three").addClass("animate-img");
-        setTimeout(function(){
-            $(".three").removeClass
-            ("animate-img");
-        }, 2000);
-    });
-    $("#what").css({
-        animation: "expandText 2s forwards"
-});
 });
